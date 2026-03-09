@@ -29,7 +29,7 @@ void loop() {
   Serial.println(smoke);
 
   if (smoke == HIGH || temp > 50) {
-    Serial.println("🔥 FIRE RISK DETECTED!");
+    Serial.println("FIRE RISK DETECTED !!!");
   } else {
     Serial.println("System Normal");
   }
